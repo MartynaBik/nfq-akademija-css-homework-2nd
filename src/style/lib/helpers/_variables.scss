@@ -1,0 +1,48 @@
+/**
+ * Breakpoints
+ */
+
+:root {
+  --md-viewport: 640px;
+  --lg-viewport: 960px;
+}
+
+/**
+ * Colors
+ */
+:root {
+  --colorRed: #f24011;
+  --colorLightGrey: #f5f6f7;
+  --colorGreen: #14872c;
+  --colorBlue: #1e70a1;
+  --colorDarkBlue: #1c5e85;
+  --colorWhite: #ffffff;
+}
+
+/**
+ * Fonts
+ */
+:root {
+  --fontSize: 16px;
+  --fontFamily: Verdana, sans-serif;
+  --lineHeight: 2;
+  --lineHeightMedium: 2.5;
+}
+
+/**
+ * Spacing
+ */
+:root {
+  --spaceSmall: 10px;
+  --spaceMedium: 25px;
+  --spaceLarge: 50px;
+}
+
+/**
+ * Border radius
+ */
+:root {
+  --radiusSmall: 5px;
+  --radiusMedium: 10px;
+  --radiusLarge: 15px;
+}

@@ -1,0 +1,21 @@
+.u-md-padding{
+  padding: var(--spaceMedium);
+}
+
+.u-floatRight {
+  float: right;
+}
+
+.u-linkColor {
+  color: var(--colorBlue);
+  &:hover {
+    color: var(--colorDarkBlue);
+  }
+}
+
+.u-linkClear,
+.u-linkClear:hover,
+.u-linkClear:focus,
+.u-linkClear:active {
+  text-decoration: none;
+}

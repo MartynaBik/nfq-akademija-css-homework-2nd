@@ -1,0 +1,11 @@
+# Ignore folder named "node_modules"
+node_modules/
+
+# Ignore file named "dist"
+dist/
+
+# Ignore file named "DS_Store"
+.DS_Store
+
+# Ignore folder named "idea"
+.idea/

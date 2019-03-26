@@ -1,0 +1,47 @@
+body {
+  font-family:  var(--fontFamily);
+  font-size: var(--fontSize);
+  line-height: var(--lineHeight);
+}
+
+input,
+button{
+  font-size: var(--fontSize);
+}
+
+.EmailForm {
+  height: inherit;
+  width: inherit;
+  padding: 10%;
+  background-color: var(--colorLightGrey);
+}
+
+.EmailForm-message {
+  background-color: var(--colorWhite);
+  border-radius: var(--radiusSmall);
+  border-style: solid;
+  border-width: 2px;
+  padding: 3% 4%;
+  @include boxShadow;
+}
+
+.EmailForm-message--default {
+  border-color: var(--colorGreen);
+  //border: 2px solid var(--colorGreen);
+}
+
+.EmailForm-message--errors {
+  border-color: var(--colorRed);
+}
+
+.EmailForm-button {
+  background-color: var(--colorBlue);
+  text-transform: uppercase;
+  color: var(--colorWhite);
+  padding: 15px;
+  border-radius: var(--radiusSmall);
+  @include boxShadow;
+  &:hover {
+    background-color: var(--colorDarkBlue);
+  }
+}
