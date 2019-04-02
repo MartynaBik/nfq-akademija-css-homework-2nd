@@ -2,11 +2,7 @@ body {
   line-height: var(--lineHeightMedium);
 }
 
-.EmailForm-message {
-  border-right-width: var(--spaceLarge);
-  padding: 1% 2%;
-}
-
-.EmailForm-button {
-  width: auto;
+.Notification-message {
+  border-right-width: var(--widthLarge);
+  padding: var(--spaceTopBotTextMedium) var(--spaceLeftRightTextMedium);
 }

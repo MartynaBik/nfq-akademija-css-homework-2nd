@@ -9,39 +9,21 @@ button{
   font-size: var(--fontSize);
 }
 
-.EmailForm {
-  height: inherit;
-  width: inherit;
-  padding: 10%;
+.Notification {
   background-color: var(--colorLightGrey);
 }
 
-.EmailForm-message {
+.Notification-message {
+  @include boxShadow;
+  margin-bottom: var(--spaceLarge);
   background-color: var(--colorWhite);
   border-radius: var(--radiusSmall);
-  border-style: solid;
-  border-width: 2px;
-  padding: 3% 4%;
-  @include boxShadow;
-}
-
-.EmailForm-message--default {
   border-color: var(--colorGreen);
-  //border: 2px solid var(--colorGreen);
+  border-style: solid;
+  border-width: var(--widthSmall);
+  padding: var(--spaceTopBotTextSmall) var(--spaceLeftRightTextSmall);
 }
 
-.EmailForm-message--errors {
+.Notification-message--errors {
   border-color: var(--colorRed);
-}
-
-.EmailForm-button {
-  background-color: var(--colorBlue);
-  text-transform: uppercase;
-  color: var(--colorWhite);
-  padding: 15px;
-  border-radius: var(--radiusSmall);
-  @include boxShadow;
-  &:hover {
-    background-color: var(--colorDarkBlue);
-  }
 }

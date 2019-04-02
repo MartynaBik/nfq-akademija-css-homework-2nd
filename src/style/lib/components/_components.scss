@@ -1,0 +1,19 @@
+.Button {
+  background-color: var(--colorBlue);
+  text-transform: uppercase;
+  color: var(--colorWhite);
+  padding: var(--spaceMedium);
+  border-radius: var(--radiusSmall);
+  @include boxShadow;
+  &:hover {
+    background-color: var(--colorDarkBlue);
+  }
+}
+
+.Link {
+  text-decoration: none;
+  color: var(--colorBlue);
+  &:hover {
+    color: var(--colorDarkBlue);
+  }
+}

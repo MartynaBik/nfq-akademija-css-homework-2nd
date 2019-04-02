@@ -34,8 +34,18 @@
  */
 :root {
   --spaceSmall: 10px;
-  --spaceMedium: 25px;
+  --spaceMedium: 15px;
   --spaceLarge: 50px;
+}
+
+/**
+ * Spacing around
+ */
+:root {
+  --spaceTopBotTextSmall: 1%;
+  --spaceLeftRightTextSmall: 2%;
+  --spaceTopBotTextMedium: 3%;
+  --spaceLeftRightTextMedium: 4%;
 }
 
 /**
@@ -45,4 +55,13 @@
   --radiusSmall: 5px;
   --radiusMedium: 10px;
   --radiusLarge: 15px;
+}
+
+/**
+ * Border width
+ */
+:root {
+  --widthSmall: 2px;
+  --widthMedium: 4px;
+  --widthLarge: 50px;
 }
